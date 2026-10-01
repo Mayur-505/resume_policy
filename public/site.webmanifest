@@ -1,0 +1,14 @@
+{
+  "name": "AI Resume Pro",
+  "short_name": "AI Resume",
+  "icons": [
+    {
+      "src": "/main-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#6366f1",
+  "background_color": "#0b0c10",
+  "display": "standalone"
+}

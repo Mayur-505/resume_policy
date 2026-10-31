@@ -55,7 +55,7 @@ export default function PrivacyPolicyClient() {
       id: "user-rights",
       title: "8. Your Rights & Data Deletion",
       content:
-        "You retain complete ownership over your resume data. You have the right to:\n\n• Access & Export: Download or view all stored resume data at any time.\n• Edit & Modify: Update or correct your resume fields directly from your user dashboard.\n• Permanent Account Deletion: Request the complete, permanent deletion of your account and all associated resumes by contacting info@greewebsolutions.com.",
+        "You retain complete ownership over your resume data. You have the right to:\n\n• Access & Export: Download or view all stored resume data at any time.\n• Edit & Modify: Update or correct your resume fields directly from your user dashboard.\n• Permanent Account Deletion: Delete your account and all associated resumes directly in the app (Profile > Delete Account), or request it on our Delete Account page (/delete-account) or by emailing info@greewebsolutions.com.",
     },
     {
       id: "contact-dpo",

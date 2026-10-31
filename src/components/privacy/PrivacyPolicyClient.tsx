@@ -121,6 +121,19 @@ export default function PrivacyPolicyClient() {
           </div>
         ))}
 
+        <p className="text-sm sm:text-base text-slate-700 font-medium">
+          This policy applies to the AI Resume Android app:{" "}
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 font-bold underline"
+          >
+            AI Resume on Google Play
+          </a>
+          .
+        </p>
+
         {/* Bottom Contact CTA */}
         <div className="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="space-y-1">

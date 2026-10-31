@@ -66,7 +66,7 @@ export default function Navbar() {
         {/* CTA Button */}
         <div className="hidden md:flex items-center gap-3">
           <Link
-            href="https://play.google.com/store/apps/details?id=com.airesume.app"
+            href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-bold shadow-md bg-indigo-600 hover:bg-indigo-700 text-white transition-all"
@@ -107,7 +107,7 @@ export default function Navbar() {
           })}
           <div className="pt-2">
             <Link
-              href="https://play.google.com/store/apps/details?id=com.airesume.app"
+              href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}

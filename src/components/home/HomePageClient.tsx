@@ -129,7 +129,7 @@ export default function HomePageClient() {
           {/* Action Buttons */}
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://play.google.com/store/apps/details?id=com.airesume.app"
+              href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-base gap-2 font-bold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-lg transition-all"
@@ -345,7 +345,7 @@ export default function HomePageClient() {
 
                 {/* CTA Button */}
                 <Link
-                  href="https://play.google.com/store/apps/details?id=com.airesume.app"
+                  href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 border border-slate-300 text-slate-800 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 font-bold transition-all shadow-sm rounded-xl text-sm mt-2"
@@ -384,7 +384,7 @@ export default function HomePageClient() {
           {/* Action Button */}
           <div className="pt-2 flex justify-center">
             <Link
-              href="https://play.google.com/store/apps/details?id=com.airesume.app"
+              href="https://play.google.com/store/apps/details?id=com.ai_resume.app"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-2 sm:py-3.5 text-base sm:text-lg font-extrabold shadow-2xl bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl gap-3 transition-all hover:scale-104 border border-white/20"

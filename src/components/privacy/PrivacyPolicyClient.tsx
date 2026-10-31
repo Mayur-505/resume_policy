@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function PrivacyPolicyClient() {
-  const lastUpdated = "October 1, 2026";
+  const lastUpdated = "October 31, 2026";
 
   const policySections = [
     {
@@ -19,7 +19,7 @@ export default function PrivacyPolicyClient() {
       id: "information-we-collect",
       title: "2. Information We Collect",
       content:
-        "We collect personal information that you voluntarily provide to us when creating an account, generating a resume, or communicating with us. This includes: \n\n• Personal Contact Details: Name, email address, phone number, and location specified in your resume profile.\n• Career & Educational Data: Work history, job titles, achievements, skills, certifications, and educational degrees entered in the resume editor.\n• Uploaded Documents: PDF or DOCX files uploaded for parsing or ATS score calculation.\n• Technical & Usage Data: IP addresses, browser types, operating system details, and session analytics collected automatically.",
+        "We collect personal information that you voluntarily provide to us when creating an account, generating a resume, or communicating with us. This includes: \n\n• Personal Contact Details: Name, email address, phone number, and location specified in your resume profile.\n• Career & Educational Data: Work history, job titles, achievements, skills, certifications, and educational degrees entered in the resume editor.\n• Uploaded Documents: PDF or DOCX files uploaded for parsing or ATS score calculation.\n• Technical & Usage Data: IP addresses, browser types, operating system details, and session analytics collected automatically.\n• Subscription Data: If you subscribe to AI Resume PRO, we receive your plan (monthly or yearly), a Google Play purchase token, and the subscription start/expiry dates so we can unlock PRO on your account. We never receive or store your card or bank details.\n• Advertising Identifiers: In the free version of the mobile app, our advertising partners may collect your device advertising ID and approximate device information to serve and measure ads.",
     },
     {
       id: "ai-processing",
@@ -37,17 +37,29 @@ export default function PrivacyPolicyClient() {
       id: "sharing",
       title: "5. Information Sharing & Third Parties",
       content:
-        "We do NOT sell, rent, or trade your personal information to third-party advertisers or recruitment agencies. We only share data with trusted infrastructure service providers (e.g. cloud host, database cluster) required to deliver our core application functionality under strict confidentiality terms.",
+        "We do NOT sell, rent, or trade your resume content or personal information to recruitment agencies or data brokers. We only share data with trusted service providers required to run the app, under confidentiality terms: cloud hosting and database providers, Google Play (payments and subscription verification), AI processing providers, and advertising partners (free version only, see Section 7).",
+    },
+    {
+      id: "subscriptions-payments",
+      title: "6. Subscriptions & Payments",
+      content:
+        "AI Resume PRO is sold as an auto-renewing monthly or yearly subscription through Google Play Billing.\n\n• Payments are processed entirely by Google Play. We do not see, collect, or store your payment card details; Google's own privacy policy governs payment data.\n• Our servers verify your purchase token with Google Play and store your plan, expiry date, and purchase token to activate PRO and to prevent the same purchase being used on several accounts.\n• You can cancel at any time in Google Play > Payments & subscriptions. Cancelling stops future renewals; PRO stays active until the end of the paid period.\n• Refunds are handled by Google Play under its refund policy.",
+    },
+    {
+      id: "advertising",
+      title: "7. Advertising",
+      content:
+        "The free version of the mobile app shows ads served by Google AdMob and other advertising partners. These partners may use your device advertising ID to show and measure ads, and may personalize them where permitted by law. You can reset or opt out of ad personalization in your device settings (Settings > Google > Ads). Subscribers to AI Resume PRO do not see ads, and we do not send your resume content to advertising partners.",
     },
     {
       id: "user-rights",
-      title: "6. Your Rights & Data Deletion",
+      title: "8. Your Rights & Data Deletion",
       content:
         "You retain complete ownership over your resume data. You have the right to:\n\n• Access & Export: Download or view all stored resume data at any time.\n• Edit & Modify: Update or correct your resume fields directly from your user dashboard.\n• Permanent Account Deletion: Request the complete, permanent deletion of your account and all associated resumes by contacting info@greewebsolutions.com.",
     },
     {
       id: "contact-dpo",
-      title: "7. Contact Our Data Protection Desk",
+      title: "9. Contact Our Data Protection Desk",
       content:
         "If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our Data Protection Desk:\n\nEmail: info@greewebsolutions.com\nOrganization: Gree Web Solutions Data Protection Team",
     },
